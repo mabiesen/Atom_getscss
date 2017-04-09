@@ -1,6 +1,8 @@
-.hello{
-	.World{
-	}
-	.nice{
+.outer{
+	.inner{
+		.innerinner1{
+		}
+		.innerinner2{
+		}
 	}
 }
