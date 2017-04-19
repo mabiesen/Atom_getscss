@@ -32,3 +32,4 @@ Use the extension to get the following:
 - [ ] Make extension workable for all Dom elements.  Currently only works with divs
 - [ ] Prompt user for a directory where the SCSS should be saved.
 - [x] Insure SCSS filenaming represents original html file name.
+- [x] Change project to look for ids rather than classes. Because classes can be shared and multiple classes may be part of a dom element, ids offer more reliable scaffolding.
