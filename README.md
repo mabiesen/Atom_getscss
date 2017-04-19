@@ -2,26 +2,26 @@
 
 My first Atom extension!
 
-When I write HTML, I typically name-space major elements with classes immediately and create a hierarchical SCSS file.  This project aims to take manual labor out of SCSS creation.
+When I write HTML, I typically name-space major elements with ides immediately and create a hierarchical SCSS file.  This project aims to take manual labor out of SCSS creation.
 
 For example, say we have the following html:
 ```
-<div class="outer">
-	<div class="inner">
-		<div class="innerinner1">
+<div id="outer">
+	<div id="inner">
+		<div id="innerinner1">
 		</div>
-		<div class="innerinner2">
+		<div id="innerinner2">
 	</div>
 </div>
 ```
 
 Use the extension to get the following:
 ```
-.outer{
-	.inner{
-		.innerinner1{
+#outer{
+	#inner{
+		#innerinner1{
 		}
-		.innerinner2{
+		#innerinner2{
 		}
 	}
 }
