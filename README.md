@@ -2,7 +2,7 @@
 
 My first Atom extension!
 
-When I write HTML, I typically name-space major elements with ides immediately and create a hierarchical SCSS file.  This project aims to take manual labor out of SCSS creation.
+When I write HTML, I typically name-space major elements with ids immediately and create a hierarchical SCSS file.  This project aims to take manual labor out of SCSS creation.
 
 For example, say we have the following html:
 ```
@@ -31,4 +31,4 @@ Use the extension to get the following:
 
 - [ ] Make extension workable for all Dom elements.  Currently only works with divs
 - [ ] Prompt user for a directory where the SCSS should be saved.
-- [ ] Insure SCSS filenaming represents original html file name.
+- [x] Insure SCSS filenaming represents original html file name.
