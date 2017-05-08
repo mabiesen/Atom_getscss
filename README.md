@@ -1,6 +1,6 @@
 # getscss
 
-My first Atom extension!
+My first Atom extension! Work in progress.
 
 When I write HTML, I typically name-space major elements with ids immediately and create a hierarchical SCSS file.  This project aims to take manual labor out of SCSS creation.
 
